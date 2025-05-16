@@ -1,5 +1,5 @@
 [build]
-publish = "Octabar"
+publish = "."
 command = ""
 
 [[redirects]]
