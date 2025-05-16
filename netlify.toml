@@ -1,13 +1,8 @@
 [build]
-publish = "."
+publish = "Octabar"
 command = ""
 
 [[redirects]]
 from = "/*"
 to = "/Homepage/Homepage.html"
 status = 200
-
-[[headers]]
-for = "/*"
-[headers.values]
-Content-Security-Policy = "default-src 'self' https://*.jsdelivr.net; style-src 'self' 'unsafe-inline' https://*.jsdelivr.net;"
