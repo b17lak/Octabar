@@ -1,9 +1,3 @@
 [build]
-publish = "."
+publish = "Homepage"
 command = ""
-
-[[redirects]]
-from = "/*"
-to = "/Homepage/Homepage.html"
-status = 200
-force = true
