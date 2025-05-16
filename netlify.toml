@@ -10,4 +10,4 @@ status = 200
 [[headers]]
 for = "/*"
 [headers.values]
-Content-Security-Policy = "default-src 'self' https://cdn.jsdelivr.net;"
+Content-Security-Policy = "default-src 'self' https://*.jsdelivr.net; style-src 'self' 'unsafe-inline' https://*.jsdelivr.net;"
