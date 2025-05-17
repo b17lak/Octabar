@@ -10,7 +10,7 @@
         <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <link href="sponsorship.css" rel="stylesheet">
+    <link href="./sponsorship.css" rel="stylesheet">
     <link rel="Website icon" type="image/png" href="/Octabar_logo.png">
 </head>
 <body>
@@ -99,44 +99,44 @@
             </div>
         </section>
 
-        <section id="contact" class="contact-section py-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-center mb-4">Become a Sponsor</h2>
-                        <div class="contact-form">
-                            <form id="sponsorForm" action="mailto:sponsors@octabar.com" method="post" enctype="text/plain">
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">Full Name</label>
-                                        <input type="text" class="form-control" id="name" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="company" class="form-label">Company</label>
-                                        <input type="text" class="form-control" id="company" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="phone" class="form-label">Phone</label>
-                                        <input type="tel" class="form-control" id="phone">
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="message" class="form-label">Sponsorship Interest</label>
-                                        <textarea class="form-control" id="message" rows="4" required></textarea>
-                                    </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Send via Outlook</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+ <section id="contact" class="contact-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="text-center mb-4">Become a Sponsor</h2>
+        <div class="contact-form">
+          <form name="sponsor" method="POST" data-netlify="true" action="/thank-you">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="col-md-6">
+                <label for="company" class="form-label">Company</label>
+                <input type="text" class="form-control" id="company" name="company" required>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Sponsorship Interest</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
             </div>
-        </section>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
          <h1 style="color: red;">Test funktioniert!</h1>
     </main>
