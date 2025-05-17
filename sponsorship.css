@@ -1,6 +1,9 @@
 :root {
     --primary-blue: #1e3c72;
     --secondary-blue: #2a5298;
+    --accent-color: #ffc107; /* z.B. Bootstrap Warn-Farbe */
+    --light-bg: #f8f9fa; /* z.B. sehr helles Grau für Sektionen */
+
   }
   
   /* Header Styles --------------------------------------------------------------------------------------------------------------------------------------------*/
