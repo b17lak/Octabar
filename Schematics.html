@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Octabar</title>
-    
-        <!-- Bootstrap 5.3 CSS -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">        
-        <!-- Bootstrap Icons -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Octabar</title>
 
-    <link href="/schematics.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/Octabar_logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+  <link href="/schematics.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/Octabar_logo.png">
 </head>
 <body>
-    <header class="sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand fs-3 fw-bold" href="/index.html">
-                        <span class="logo-text">OCTABAR</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
-                                    <i class="bi bi-list me-2"></i> MENU
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-end">
-                                    <li><a class="dropdown-item" href="/index.html">Homepage</a></li>
-                                    <li><a class="dropdown-item" href="/sponsorship.html">Sponsorship</a></li>
-                                    <li><a class="dropdown-item" href="/Schematics.html">Schematics</a></li>
-                                    <li><a class="dropdown-item" href="/shop.html">Shop</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<header class="sticky-top">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 fw-bold" href="/index.html">
+          <span class="logo-text">OCTABAR</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                <i class="bi bi-list me-2"></i> MENU
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="/index.html">Homepage</a></li>
+                <li><a class="dropdown-item" href="/sponsorship.html">Sponsorship</a></li>
+                <li><a class="dropdown-item" href="/Schematics.html">Schematics</a></li>
+                <li><a class="dropdown-item" href="/shop.html">Shop</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-    </header>
+      </div>
+    </nav>
+  </div>
+</header>
 
-    <main class="container my-5">
-        <div class="text-center mb-5">
-            <h1 class="fw-bold mb-3">Octabar Schematics</h1>
-            <p class="lead">Technical diagrams and component specifications</p>
-        </div>
+<main class="container my-5">
+  <div class="text-center mb-5">
+    <h1 class="fw-bold mb-3">Octabar Schematics</h1>
+    <p class="lead">Technical diagrams and component specifications</p>
+  </div>
 
-        <div class="schematic-container">
-            <h2><i class="bi bi-cpu"></i> Elektronik</h2>
-            <div class="row mt-4">
-                <div class="col-md-4">
+  <div class="schematic-container">
+    <h2><i class="bi bi-cpu"></i> Elektronik</h2>
+    <div class="row mt-4">
+   <div class="col-md-4">
                     <div class="card component-card">
                         <div class="card-body text-center">
                             <i class="bi bi-lightning-charge component-icon"></i>
@@ -71,7 +68,7 @@
                     <div class="card component-card">
                         <div class="card-body text-center">
                             <i class="bi bi-motherboard component-icon"></i>
-                            <h3>Schaltplan</h3>
+                            <h3>Allg. Schaltplan</h3>
                             <button class="btn btn-outline-primary"data-bs-toggle="modal" data-bs-target="#powerDiagramModal"
                             >View Diagram
                         </button>
@@ -93,17 +90,6 @@
                     <div class="card component-card">
                         <div class="card-body text-center">
                             <i class="bi bi-usb-plug component-icon"></i>
-                            <h3>Pumpen Platinen</h3>
-                            <button class="btn btn-outline-primary"data-bs-toggle="modal" data-bs-target="#powerDiagramModal">
-                                View Diagram
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card component-card">
-                        <div class="card-body text-center">
-                            <i class="bi bi-usb-plug component-icon"></i>
                             <h3>Ventil Schaltplan</h3>
                             <button class="btn btn-outline-primary"data-bs-toggle="modal" data-bs-target="#powerDiagramModal">
                                 View Diagram
@@ -115,7 +101,18 @@
                     <div class="card component-card">
                         <div class="card-body text-center">
                             <i class="bi bi-usb-plug component-icon"></i>
-                            <h3>Ventil Platinen</h3>
+                            <h3>Display Schaltplan</h3>
+                            <button class="btn btn-outline-primary"data-bs-toggle="modal" data-bs-target="#powerDiagramModal">
+                                View Diagram
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card component-card">
+                        <div class="card-body text-center">
+                            <i class="bi bi-usb-plug component-icon"></i>
+                            <h3>ESP32 Platine</h3>
                             <button class="btn btn-outline-primary"data-bs-toggle="modal" data-bs-target="#powerDiagramModal">
                                 View Diagram
                             </button>
@@ -125,74 +122,103 @@
             </div>
         </div>
 
-        <!-- Power System Modal -->
-        <div class="modal fade" id="powerDiagramModal" tabindex="-1" aria-labelledby="powerDiagramLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="powerDiagramLabel">
-                            <i class="bi bi-lightning-charge"></i> Power System Diagram
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254" 
-                             alt="Power System Diagram" 
-                             class="img-fluid diagram-img rounded">
-                        <div class="mt-4">
-                            <h4>12V DC Power Distribution</h4>
-                            <p class="text-muted">This diagram shows the power regulation system for Octabar</p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">
-                            <i class="bi bi-download"></i> Download Diagram
-                        </button>
-                    </div>
-                </div>
-            </div>
+  <!-- Power System Modal -->
+  <div class="modal fade" id="powerDiagramModal" tabindex="-1" aria-labelledby="powerDiagramLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="powerDiagramLabel">
+            <i class="bi bi-lightning-charge"></i> Power System Diagram
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-
-        <!-- Rest of your existing content -->
-        <div class="schematic-container mt-5">
-            <h2><i class="bi bi-pipe"></i> Fluid System</h2>
-            <div class="diagram-container">
-                <img src="../images/fluid_diagram.png" alt="Fluid System Diagram" class="img-fluid">
-                <div class="mt-3">
-                    <h4>Pump Wiring Diagram</h4>
-                    <p>12V peristaltic pumps with flow sensors</p>
-                    <a href="../downloads/fluid_system.pdf" class="btn btn-primary">
-                        <i class="bi bi-download"></i> Download PDF
-                    </a>
-                </div>
-            </div>
+        <div class="modal-body text-center">
+          <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254"
+               alt="Power System Diagram"
+               class="img-fluid diagram-img rounded">
+          <div class="mt-4">
+            <h4>12V DC Power Distribution</h4>
+            <p class="text-muted">This diagram shows the power regulation system for Octabar</p>
+          </div>
         </div>
-
-        <div class="schematic-container mt-5">
-            <h2><i class="bi bi-file-earmark-code"></i> Source Code</h2>
-            <div class="card">
-                <div class="card-body">
-                    <h3><i class="bi bi-github"></i> Repository</h3>
-                    <p>Access the complete source code on GitHub</p>
-                    <pre><code>git clone https://github.com/yourusername/octabar.git</code></pre>
-                    <a href="https://github.com/yourusername/octabar" class="btn btn-dark">
-                        <i class="bi bi-github"></i> View on GitHub
-                    </a>
-                </div>
-            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary download-btn" data-file="/downloads/power_system_diagram.pdf" data-filename="power_system_diagram.pdf">
+            <i class="bi bi-download"></i> Download Diagram
+          </button>
         </div>
-    </main>
+      </div>
+    </div>
+  </div>
 
-    <footer class="py-4 mt-5">
-        <div class="container">
-            <div class="text-center">
-                <p class="mb-0 text-white">© 2025 Octabar | All Rights Reserved</p>
-            </div>
-        </div>
-    </footer>
+  <!-- Fluid System -->
+  <div class="schematic-container mt-5">
+    <h2><i class="bi bi-pipe"></i> Fluid System</h2>
+    <div class="diagram-container">
+      <img src="../images/fluid_diagram.png" alt="Fluid System Diagram" class="img-fluid">
+      <div class="mt-3">
+        <h4>Pump Wiring Diagram</h4>
+        <p>12V peristaltic pumps with flow sensors</p>
+        <a href="../downloads/fluid_system.pdf" class="btn btn-primary" download>
+          <i class="bi bi-download"></i> Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
 
-<!-- Bootstrap JS Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+  <!-- Source Code -->
+  <div class="schematic-container mt-5">
+    <h2><i class="bi bi-file-earmark-code"></i> Source Code</h2>
+    <div class="card">
+      <div class="card-body">
+        <h3><i class="bi bi-github"></i> Repository</h3>
+        <p>Access the complete source code on GitHub</p>
+        <pre><code>git clone https://github.com/yourusername/octabar.git</code></pre>
+        <a href="https://github.com/yourusername/octabar" class="btn btn-dark">
+          <i class="bi bi-github"></i> View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="py-4 mt-5 bg-dark">
+  <div class="container">
+    <div class="text-center">
+      <p class="mb-0 text-white">© 2025 Octabar | All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Beispielhafte Datei-URLs (kannst du natürlich dynamisch anpassen oder erweitern)
+const diagramFiles = {
+  "Blockschaltbild": "blockschaltbild.pdf",
+  "Allg. Schaltplan": "schaltplan.svg",
+  "Pumpen Schaltplan": "pumpen_schaltplan.pdf",
+  "Display Schaltplan": "pumpen_platinen.png",
+  "Ventil Schaltplan": "ventil_schaltplan.pdf",
+  "ESP32 Schaltplan": "ventil_platinen.pdf"
+};
+  // Buttons mit Click-Handlern versehen
+  document.querySelectorAll('.component-card button').forEach((button, index) => {
+    button.addEventListener('click', () => {
+      // Hole den Titel des Cards
+      const title = button.closest('.component-card').querySelector('h3').innerText;
+
+      // Setze die Download-URL und Dateiname
+      const downloadBtn = document.getElementById('downloadBtn');
+      const fileUrl = diagramFiles[title] || 'downloads/default.pdf';
+      const fileName = fileUrl.split('/').pop();
+
+      downloadBtn.href = fileUrl;
+      downloadBtn.setAttribute('download', fileName);
+
+      // Optional: Titel im Modal anpassen
+      document.getElementById('powerDiagramLabel').innerText = title;
+    });
+  });
+</script>
